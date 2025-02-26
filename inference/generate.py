@@ -29,6 +29,7 @@ def sample(logits, temperature: float = 1.0):
 
 @torch.inference_mode()
 def generate(
+    this is pullrequesu test
     model: Transformer,
     prompt_tokens: List[List[int]],
     max_new_tokens: int,
